@@ -20,7 +20,7 @@ function AbstractShape() {
 }
 
 export default function Hero() {
-  const profileUrl = "https://media.licdn.com/dms/image/v2/D4E03AQF5SSRzq6mcTw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1699984659200?e=1775088000&v=beta&t=dx5xTY8GQntgd1YLpRItTDbP0gDLWG7AqbxrLfIorRI";
+  const profileUrl = "/profile.jpg";
 
   return (
     <section className="relative min-h-[90vh] flex flex-col items-center justify-center pt-20">

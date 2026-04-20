@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Download, ChevronDown } from 'lucide-react';
 import Section from '../Section';
 
-const PROFILE_IMG = "https://media.licdn.com/dms/image/v2/D4E03AQF5SSRzq6mcTw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1699984659200?e=1775088000&v=beta&t=dx5xTY8GQntgd1YLpRItTDbP0gDLWG7AqbxrLfIorRI";
+const PROFILE_IMG = "/profile.jpg";
 
 const stats = [
   { label: 'Projects', value: '2+' },
