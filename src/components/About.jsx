@@ -38,7 +38,7 @@ export default function About() {
                 <GraduationCap className="text-secondary" size={28} />
                 <div>
                   <h4 className="font-semibold">Education</h4>
-                  <p className="text-sm text-gray-400">B.Tech @ LPU, Phagwara (CGPA: 6.91)</p>
+                  <p className="text-sm text-gray-400">B.Tech @ LPU, Phagwara (CGPA: 7.03)</p>
                 </div>
               </div>
 

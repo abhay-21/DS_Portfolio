@@ -16,7 +16,7 @@ export default function About() {
           
           <div className="relative z-10 text-lg md:text-xl text-gray-300 leading-relaxed space-y-6">
             <p>
-              I am a <strong className="text-white">B.Tech CSE student at Lovely Professional University (LPU)</strong>, maintaining a CGPA of 6.91. Proudly hailing from Korba, Chhattisgarh, I have always been fascinated by how information shapes our world.
+              I am a <strong className="text-white">B.Tech CSE student at Lovely Professional University (LPU)</strong>, maintaining a CGPA of 7.03. Proudly hailing from Korba, Chhattisgarh, I have always been fascinated by how information shapes our world.
             </p>
             <p>
               My journey represents a deep passion for bridging engineering and analytics. I don't just write code; I <strong className="text-primary hover:text-white transition-colors">discover patterns</strong>, clean messy data, and build visual stories that drive strategic decisions.
@@ -33,7 +33,7 @@ export default function About() {
             <div>
               <h4 className="font-semibold">Education</h4>
               <p className="text-sm text-gray-400">
-                Bachelor of Technology - Computer Science & Engineering (LPU, Phagwara) | Aug 2023 - Present | CGPA: 6.91
+                Bachelor of Technology - Computer Science & Engineering (LPU, Phagwara) | Aug 2023 - Present | CGPA: 7.03
               </p>
             </div>
           </div>
