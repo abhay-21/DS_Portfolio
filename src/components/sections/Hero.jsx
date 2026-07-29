@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Download, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import Section from '../Section';
 
 const PROFILE_IMG = "/profile.jpg";
