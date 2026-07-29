@@ -1,6 +1,6 @@
 import Reveal from './Reveal';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
-import { Database, Activity, Code2, PlaySquare, BarChart, Users, Zap, TrendingUp, Info } from 'lucide-react';
+import { Database, Activity, Code2, PlaySquare, BarChart, Users, Zap, TrendingUp, Info, Star, FileText } from 'lucide-react';
 
 const Card = ({ title, tech, description, highlights, icon: Icon, image, sourceLink, demoLink }) => {
   const x = useMotionValue(0);
@@ -142,6 +142,20 @@ export default function Projects() {
       icon: Activity,
       image: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&q=80&w=2070",
       sourceLink: "https://github.com/abhay-21/INT217-PROJECT",
+      demoLink: "#"
+    },
+    {
+      title: "Text Summarizer",
+      description: "End-to-end NLP pipeline and web application for automated text & dialogue summarization using a fine-tuned BART model on the SAMSum dataset.",
+      highlights: [
+        "Modular ML Pipeline (Ingestion → Evaluation)",
+        "FastAPI REST API with async serving",
+        "Docker-ready for cloud deployment"
+      ],
+      tech: ["Python", "FastAPI", "PyTorch", "HuggingFace", "Docker"],
+      icon: FileText,
+      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=2070",
+      sourceLink: "https://github.com/abhay-21/Text-Summarizer-Project",
       demoLink: "#"
     }
   ];

@@ -19,6 +19,14 @@ const projects = [
     sourceUrl: "https://github.com/abhay-21/INT217-PROJECT",
     liveUrl: "#",
     color: "from-green-400 to-emerald-500"
+  },
+  {
+    title: "Text Summarizer",
+    description: "End-to-end NLP pipeline & web app for automated text and dialogue summarization using a fine-tuned BART model on the SAMSum dataset.",
+    tags: ["Python", "FastAPI", "PyTorch", "HuggingFace", "Docker"],
+    sourceUrl: "https://github.com/abhay-21/Text-Summarizer-Project",
+    liveUrl: "#",
+    color: "from-purple-500 to-pink-500"
   }
 ];
 
